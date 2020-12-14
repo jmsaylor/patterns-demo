@@ -1,5 +1,5 @@
 package com.johnsaylor.starbucks;
-//pg. 91
+//pg. 91, 107 - Wrapper Pattern
 
 public abstract class Beverage {
     public String description = "Unknown Beverage";
