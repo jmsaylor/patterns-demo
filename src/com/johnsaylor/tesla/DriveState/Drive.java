@@ -1,4 +1,4 @@
-package com.johnsaylor.teksla.DriveState;
+package com.johnsaylor.tesla.DriveState;
 
 public class Drive implements State {
     @Override

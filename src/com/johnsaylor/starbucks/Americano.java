@@ -1,4 +1,4 @@
-package com.johnsaylor.starbuzz;
+package com.johnsaylor.starbucks;
 
 public class Americano extends Beverage{
 

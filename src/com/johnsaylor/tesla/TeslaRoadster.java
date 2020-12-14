@@ -1,11 +1,11 @@
-package com.johnsaylor.teksla;
+package com.johnsaylor.tesla;
 
-import com.johnsaylor.teksla.DriveState.Drive;
-import com.johnsaylor.teksla.DriveState.Park;
-import com.johnsaylor.teksla.DriveState.Reverse;
-import com.johnsaylor.teksla.DriveState.State;
+import com.johnsaylor.tesla.DriveState.Drive;
+import com.johnsaylor.tesla.DriveState.Park;
+import com.johnsaylor.tesla.DriveState.Reverse;
+import com.johnsaylor.tesla.DriveState.State;
 
-public class TekslaRoadster {
+public class TeslaRoadster {
 
     State drive = new Drive();
     State park = new Park();
@@ -13,7 +13,7 @@ public class TekslaRoadster {
 
     State state = park;
 
-    public TekslaRoadster() {}
+    public TeslaRoadster() {}
 
     public void pressPedal(){
         state.accelerate();
@@ -39,7 +39,7 @@ public class TekslaRoadster {
     }
 
     public static void test() {
-        var teksla = new TekslaRoadster();
+        var teksla = new TeslaRoadster();
         teksla.pressPedal();
         teksla.openDoor();
         teksla.shiftToDrive();

@@ -1,4 +1,4 @@
-package com.johnsaylor.teksla.DriveState;
+package com.johnsaylor.tesla.DriveState;
 
 public interface State {
     void accelerate();
