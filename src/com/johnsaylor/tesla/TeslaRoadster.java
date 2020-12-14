@@ -39,15 +39,15 @@ public class TeslaRoadster {
     }
 
     public static void test() {
-        var teksla = new TeslaRoadster();
-        teksla.pressPedal();
-        teksla.openDoor();
-        teksla.shiftToDrive();
-        teksla.pressPedal();
-        teksla.openDoor();
-        teksla.shiftToReverse();
-        teksla.pressPedal();
-        teksla.openDoor();
-        teksla.shiftToPark();
+        var tesla = new TeslaRoadster();
+        tesla.pressPedal();
+        tesla.openDoor();
+        tesla.shiftToDrive();
+        tesla.pressPedal();
+        tesla.openDoor();
+        tesla.shiftToReverse();
+        tesla.pressPedal();
+        tesla.openDoor();
+        tesla.shiftToPark();
     }
 }
